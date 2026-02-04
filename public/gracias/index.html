@@ -257,6 +257,57 @@
         </svg>
         Volver al Inicio
     </a>
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/56979860843?text=Hola,%20me%20interesa%20cotizar%20un%20servicio%20de%20escaneo%203D"
+        class="whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M16.53 14.96C16.42 14.91 15.9 14.65 15.8 14.62C15.7 14.59 15.63 14.57 15.55 14.69C15.48 14.81 15.27 15.06 15.21 15.13C15.15 15.21 15.08 15.22 14.97 15.16C14.87 15.11 14.53 15 14.13 14.64C13.8 14.35 13.59 13.99 13.53 13.88C13.47 13.77 13.53 13.71 13.58 13.66C13.63 13.61 13.69 13.53 13.75 13.46C13.81 13.39 13.83 13.34 13.87 13.26C13.91 13.19 13.89 13.12 13.86 13.06C13.83 13 13.61 12.46 13.52 12.24C13.43 12.03 13.34 12.06 13.27 12.06C13.21 12.06 13.13 12.06 13.06 12.06C12.98 12.06 12.86 12.09 12.75 12.21C12.64 12.33 12.33 12.62 12.33 13.22C12.33 13.82 12.77 14.4 12.83 14.48C12.9 14.56 13.73 15.85 15 16.4C15.3 16.53 15.54 16.61 15.73 16.67C16.05 16.77 16.34 16.76 16.57 16.73C16.83 16.69 17.37 16.4 17.48 16.08C17.59 15.76 17.59 15.49 17.55 15.43C17.52 15.37 17.44 15.33 17.38 15.3L16.53 14.96Z" />
+        </svg>
+    </a>
+
+    <style>
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 60px;
+            height: 60px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            z-index: 1000;
+        }
+
+        .whatsapp-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4);
+        }
+
+        .whatsapp-btn svg {
+            width: 35px;
+            height: 35px;
+        }
+
+        @media (max-width: 768px) {
+            .whatsapp-btn {
+                bottom: 1.5rem;
+                right: 1.5rem;
+                width: 50px;
+                height: 50px;
+            }
+
+            .whatsapp-btn svg {
+                width: 28px;
+                height: 28px;
+            }
+        }
+    </style>
 </body>
 
 </html>
